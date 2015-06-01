@@ -1,1 +1,9 @@
 # Backup Files
+*.bak
+*~
+
+# Assembly Stuff
+*.lst
+*.adf
+*.bin
+*.hex
