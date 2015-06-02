@@ -1,9 +1,13 @@
 # Backup Files
 *.bak
 *~
+*.dcm
+*.bck
+$*
 
 # Assembly Stuff
 *.lst
 *.adf
 *.bin
 *.hex
+
