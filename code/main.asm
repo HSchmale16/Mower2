@@ -3,6 +3,7 @@
 ; Date: June 1, 2015
 
 MAIN_DRIVE	EQU	P3.7	; Pin Goes High to reverse Motor
+stepper		EQU	P1
 
 main:	ORG	0000H		; Program Entry Point
 	JMP	setup		; Interupt Overwriting Protection
@@ -10,6 +11,9 @@ main:	ORG	0000H		; Program Entry Point
 setup:	ORG	002CH
 	SETB	EA
 	SETB	IE.0		; Enable Extern0 Interupt
+	JMP	evntlp		; Go straight to the event loop
+; Define Subroutines here
+
 
 evntlp:				; Event Loop
 	JMP	evntlp
@@ -18,7 +22,7 @@ evntlp:				; Event Loop
 ext0in:	ORG	0003H		; External Interupt 0
 	RETI
 
-ext0in:	ORG	0013H		; External Interupt 1
+ext1in:	ORG	0013H		; External Interupt 1
 	RETI
 
 tim0in:	ORG	000BH		; Timer 0 Interupt
