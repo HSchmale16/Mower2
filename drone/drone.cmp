@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Wed 03 Jun 2015 01:01:54 PM EDT
+Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Wed 03 Jun 2015 01:27:15 PM EDT
 
 BeginCmp
 TimeStamp = /556F306E;
 Reference = BT1;
 ValeurCmp = 12V;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
@@ -53,42 +53,42 @@ BeginCmp
 TimeStamp = /556E1126;
 Reference = P2;
 ValeurCmp = LeftM;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /556CD7F2;
 Reference = P3;
 ValeurCmp = RightM;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F2AE8;
 Reference = P4;
 ValeurCmp = Blade1;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F2AFC;
 Reference = P5;
 ValeurCmp = Blade2;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /556E1144;
 Reference = Q1;
 ValeurCmp = NPN;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal_LargePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /556CDBB5;
 Reference = Q2;
 ValeurCmp = NPN;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal_LargePads;
 EndCmp
 
 BeginCmp
@@ -108,29 +108,29 @@ EndCmp
 BeginCmp
 TimeStamp = /556CEA9C;
 Reference = SW1;
-ValeurCmp = SW_PUSH_SMALL;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+ValeurCmp = Reset;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /556E06D3;
 Reference = SW2;
-ValeurCmp = SW_PUSH;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+ValeurCmp = FwdTrig;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /556E0334;
 Reference = SW3;
-ValeurCmp = SW_PUSH;
-IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+ValeurCmp = BackTrig;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F311C;
 Reference = U1;
 ValeurCmp = 7805;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:LM78XX;
 EndCmp
 
 BeginCmp
