@@ -1,0 +1,143 @@
+Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Wed 03 Jun 2015 01:01:54 PM EDT
+
+BeginCmp
+TimeStamp = /556F306E;
+Reference = BT1;
+ValeurCmp = 12V;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CE658;
+Reference = C1;
+ValeurCmp = 5pF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CE66C;
+Reference = C2;
+ValeurCmp = 5pF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CD57A;
+Reference = IC1;
+ValeurCmp = AT89S4051-P;
+IdModule  = Sockets_DIP:DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E1120;
+Reference = K1;
+ValeurCmp = RELAY_2RT;
+IdModule  = Relays_ThroughHole:Relais_DPDT_Schrack-RT2_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CD7C9;
+Reference = K2;
+ValeurCmp = RELAY_2RT;
+IdModule  = Relays_ThroughHole:Relais_DPDT_Schrack-RT2_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E17F1;
+Reference = P1;
+ValeurCmp = ISP;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E1126;
+Reference = P2;
+ValeurCmp = LeftM;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CD7F2;
+Reference = P3;
+ValeurCmp = RightM;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /556F2AE8;
+Reference = P4;
+ValeurCmp = Blade1;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /556F2AFC;
+Reference = P5;
+ValeurCmp = Blade2;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E1144;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CDBB5;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E114A;
+Reference = R1;
+ValeurCmp = 3k3;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CDBC9;
+Reference = R2;
+ValeurCmp = 3k3;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /556CEA9C;
+Reference = SW1;
+ValeurCmp = SW_PUSH_SMALL;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E06D3;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /556E0334;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-236_2Stift_RM5mm_1pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /556F311C;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = /556BC952;
+Reference = X1;
+ValeurCmp = 12MHz;
+IdModule  = Crystals:Crystal_HC48-U_Vertical;
+EndCmp
+
+EndListe

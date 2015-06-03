@@ -4,8 +4,9 @@
 *.dcm
 *.bck
 $*
+*bak
 
-# Assembly Stuff
+# Assembly Stuff From Builds
 *.lst
 *.adf
 *.bin
