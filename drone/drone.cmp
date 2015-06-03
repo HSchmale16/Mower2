@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Wed 03 Jun 2015 04:21:12 PM EDT
+Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Wed 03 Jun 2015 04:36:08 PM EDT
 
 BeginCmp
 TimeStamp = /556F306E;
@@ -67,63 +67,63 @@ BeginCmp
 TimeStamp = /556F56BB;
 Reference = Q1;
 ValeurCmp = NPN;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F5955;
 Reference = Q2;
 ValeurCmp = PNP;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F5941;
 Reference = Q3;
 ValeurCmp = NPN;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F5969;
 Reference = Q4;
 ValeurCmp = PNP;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F6136;
 Reference = Q5;
 ValeurCmp = NPN;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F6142;
 Reference = Q6;
 ValeurCmp = PNP;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F613C;
 Reference = Q7;
 ValeurCmp = NPN;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F6148;
 Reference = Q8;
 ValeurCmp = PNP;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F6D98;
 Reference = Q9;
 ValeurCmp = NPN;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Horizontal;
+IdModule  = Discret:TO18CBE;
 EndCmp
 
 BeginCmp
@@ -214,7 +214,7 @@ BeginCmp
 TimeStamp = /556F311C;
 Reference = U1;
 ValeurCmp = 7805;
-IdModule  = Power_Integrations:TO-220;
+IdModule  = Discret:LM78XXV;
 EndCmp
 
 BeginCmp
