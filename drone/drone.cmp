@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Wed 03 Jun 2015 04:36:08 PM EDT
+Cmp-Mod V01 Created by CvPcb (2014-jan-25)-product date = Thu 04 Jun 2015 01:41:04 PM EDT
 
 BeginCmp
 TimeStamp = /556F306E;
@@ -29,9 +29,9 @@ IdModule  = Sockets_DIP:DIP-20__300;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F59D7;
+TimeStamp = /55707846;
 Reference = P1;
-ValeurCmp = LeftM;
+ValeurCmp = CONN_2;
 IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
@@ -43,149 +43,149 @@ IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F6166;
-Reference = P3;
-ValeurCmp = RightM;
-IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
-EndCmp
-
-BeginCmp
 TimeStamp = /556F2AE8;
-Reference = P4;
+Reference = P3;
 ValeurCmp = Blade1;
 IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F2AFC;
-Reference = P5;
+Reference = P4;
 ValeurCmp = Blade2;
 IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F56BB;
+TimeStamp = /55709058;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = Sockets_WAGO734:WAGO_734_2pin_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = /55707746;
 Reference = Q1;
 ValeurCmp = NPN;
-IdModule  = Discret:TO18CBE;
+IdModule  = Discret:TO18EBC;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F5955;
+TimeStamp = /5570785A;
 Reference = Q2;
-ValeurCmp = PNP;
-IdModule  = Discret:TO18CBE;
+ValeurCmp = NPN;
+IdModule  = Discret:TO18EBC;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F5941;
+TimeStamp = /5570775A;
 Reference = Q3;
 ValeurCmp = NPN;
-IdModule  = Discret:TO18CBE;
+IdModule  = Discret:TO18EBC;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F5969;
+TimeStamp = /5570786E;
 Reference = Q4;
-ValeurCmp = PNP;
-IdModule  = Discret:TO18CBE;
-EndCmp
-
-BeginCmp
-TimeStamp = /556F6136;
-Reference = Q5;
 ValeurCmp = NPN;
-IdModule  = Discret:TO18CBE;
-EndCmp
-
-BeginCmp
-TimeStamp = /556F6142;
-Reference = Q6;
-ValeurCmp = PNP;
-IdModule  = Discret:TO18CBE;
-EndCmp
-
-BeginCmp
-TimeStamp = /556F613C;
-Reference = Q7;
-ValeurCmp = NPN;
-IdModule  = Discret:TO18CBE;
-EndCmp
-
-BeginCmp
-TimeStamp = /556F6148;
-Reference = Q8;
-ValeurCmp = PNP;
-IdModule  = Discret:TO18CBE;
+IdModule  = Discret:TO18EBC;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F6D98;
+Reference = Q5;
+ValeurCmp = NPN;
+IdModule  = Discret:TO18EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5570904C;
+Reference = Q6;
+ValeurCmp = NPN;
+IdModule  = Discret:TO18EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5570905E;
+Reference = Q7;
+ValeurCmp = NPN;
+IdModule  = Discret:TO18EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55709052;
+Reference = Q8;
+ValeurCmp = NPN;
+IdModule  = Discret:TO18EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55709064;
 Reference = Q9;
 ValeurCmp = NPN;
-IdModule  = Discret:TO18CBE;
+IdModule  = Discret:TO18EBC;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F59C3;
+TimeStamp = /55707882;
 Reference = R1;
-ValeurCmp = 1K;
+ValeurCmp = R;
 IdModule  = Discret:R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F59A5;
+TimeStamp = /55707896;
 Reference = R2;
-ValeurCmp = 1K;
+ValeurCmp = R;
 IdModule  = Discret:R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F597D;
+TimeStamp = /557078C8;
 Reference = R3;
-ValeurCmp = 1K;
+ValeurCmp = R;
 IdModule  = Discret:R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /556F5991;
+TimeStamp = /557078AA;
 Reference = R4;
-ValeurCmp = 1K;
-IdModule  = Discret:R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /556F6160;
-Reference = R5;
-ValeurCmp = 1K;
-IdModule  = Discret:R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /556F615A;
-Reference = R6;
-ValeurCmp = 1K;
-IdModule  = Discret:R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /556F614E;
-Reference = R7;
-ValeurCmp = 1K;
-IdModule  = Discret:R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /556F6154;
-Reference = R8;
-ValeurCmp = 1K;
+ValeurCmp = R;
 IdModule  = Discret:R3;
 EndCmp
 
 BeginCmp
 TimeStamp = /556F6198;
-Reference = R9;
+Reference = R5;
 ValeurCmp = 3K3;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5570906A;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55709070;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5570907C;
+Reference = R8;
+ValeurCmp = R;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55709076;
+Reference = R9;
+ValeurCmp = R;
 IdModule  = Discret:R3;
 EndCmp
 

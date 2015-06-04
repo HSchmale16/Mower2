@@ -16,14 +16,15 @@ setup:	ORG	002CH		; executes exactly once
 	JMP	evntlp		; Go straight to the event loop
 ; Define Subroutines below
 swait:				; A very short wait ~5secs
-	SETB	00h
+	CLR	20h
 	CLR	TR0		; Shutoff the timer
 	MOV	TL0,#00h	; Reset Timer0
 	MOV	TH0,#00h
 	SETB	ET0
 	SETB	TR0
-lswait:	JB	00h,lswait	; loop in swait
-	CLR	ET0
+l1wait:	JB	00h,l2wait	; loop in swait
+	JMP	l1wait
+l2wait:	CLR	ET0
 	CLR	TR0
 	RET
 wait:				; Waits at least 5 seconds
