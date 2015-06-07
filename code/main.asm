@@ -6,7 +6,7 @@ LMOTOR1	EQU	P3.5
 LMOTOR2	EQU	P3.7		; Makes Left Motor go in reverse
 RMOTOR1	EQU	P1.2
 RMOTOR2	EQU	P1.3		; Makes Right Motor go in reverse
-BLADEON	EQU	P1.4
+BLADEON	EQU	P1.4		; If Set the blades are spinning
 
 main:	ORG	0000H		; Program Entry Point
 	JMP	setup		; Interupt Overwriting Protection
@@ -17,14 +17,14 @@ setup:	ORG	002CH		; executes exactly once
 ; Define Subroutines below
 
 ; Wait for timer0 to overflow R0 times
-; 
+; R0 is set to 0 at the end of this sub
 wait:	SETB	TR0
 	CLR	TF0
 	JNB	TF0, $		; Busy Loop until timer0 overflows
-	DJNZ	R0,wait
+	DJNZ	R0, wait
 	CLR	TR0
 	CLR	TF0
-myret:	RET			; Just a random return useful to ret by jmpn to
+myret:	RET
 
 revrnd:				; Reverse and turn around
 	CLR	LMOTOR1
@@ -38,7 +38,9 @@ revrnd:				; Reverse and turn around
 	SETB	LMOTOR1
 	SETB	RMOTOR1
 	RET
+
 evntlp:				; Program Event Loop
+	MOV	R0, #100
 	CALL	revrnd
 	JMP	evntlp
 	END
@@ -46,5 +48,4 @@ evntlp:				; Program Event Loop
 ext0:	ORG	0003H		; External Interupt 0
 	RETI
 time0:	ORG	000BH		; Timer Interupt 0
-	CLR	00h
 	RETI
