@@ -416,8 +416,6 @@ Wire Wire Line
 	4275 1575 4350 1575
 Wire Wire Line
 	4275 1675 4350 1675
-NoConn ~ 4275 1475
-NoConn ~ 4275 1375
 NoConn ~ 4275 2375
 NoConn ~ 4275 2675
 Text GLabel 4350 1775 2    60   Input ~ 0
@@ -848,4 +846,61 @@ Connection ~ 8150 4675
 Wire Wire Line
 	8400 2900 9125 2900
 Connection ~ 9125 2900
+$Comp
+L UsonicFinder U2
+U 1 1 5574E94F
+P 7225 3600
+F 0 "U2" H 7075 3850 60  0000 C CNN
+F 1 "UsonicFinder" H 7250 3950 60  0000 C CNN
+F 2 "" H 7225 3600 60  0000 C CNN
+F 3 "" H 7225 3600 60  0000 C CNN
+	1    7225 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR019
+U 1 1 5574E963
+P 6875 3400
+F 0 "#PWR019" H 6875 3490 20  0001 C CNN
+F 1 "+5V" H 6875 3490 30  0000 C CNN
+F 2 "" H 6875 3400 60  0000 C CNN
+F 3 "" H 6875 3400 60  0000 C CNN
+	1    6875 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 3400 6875 3450
+Wire Wire Line
+	6875 3450 6925 3450
+$Comp
+L GND #PWR020
+U 1 1 5574EA64
+P 6875 3800
+F 0 "#PWR020" H 6875 3800 30  0001 C CNN
+F 1 "GND" H 6875 3730 30  0001 C CNN
+F 2 "" H 6875 3800 60  0000 C CNN
+F 3 "" H 6875 3800 60  0000 C CNN
+	1    6875 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 3800 6875 3750
+Wire Wire Line
+	6875 3750 6925 3750
+Text GLabel 4375 1375 2    60   Input ~ 0
+Trig
+Wire Wire Line
+	4275 1375 4375 1375
+Text GLabel 4375 1475 2    60   Input ~ 0
+Echo
+Wire Wire Line
+	4275 1475 4375 1475
+Text GLabel 6825 3550 0    60   Input ~ 0
+Trig
+Text GLabel 6825 3650 0    60   Input ~ 0
+Echo
+Wire Wire Line
+	6825 3650 6925 3650
+Wire Wire Line
+	6925 3550 6825 3550
 $EndSCHEMATC
