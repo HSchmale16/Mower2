@@ -45,25 +45,32 @@ revrnd:				; Reverse and turn around
 ; Requires access to timer1.
 ; Returns results via R1 in meters
 rngfnd:
+	CLR	TF1
 	MOV	TH1,#0h		; Zero Timer1
 	MOV	TL1,#0h
+	SETB	EX1
+	SETB	ET1
 	SETB	TRIGPIN		; Trigger the range finder
 	SETB	TR1
 	JNB	TF1,$
+	CLR	TR1
+	CLR	EX1
+	CLR	ET1
 	RET
 
 evntlp:				; Program Event Loop
 	CALL	rngfnd
-	CALL	revrnd
-	JMP	evntlp
+	SJMP	evntlp
 	END
 
 ; Interupts are defined below
 ext0:	ORG	0003H		; External Interupt 0
+	CALL	revrnd
 	RETI
 
 ext1:	ORG	0013H		; External Interupt 1
 	CLR	TR1
+	SETB	TF1
 	RETI
 
 time0:	ORG	000BH		; Timer Interupt 0
