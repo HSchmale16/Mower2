@@ -36,8 +36,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Lawn Mower Drone Control System"
-Date "03 Jun 2015"
-Rev ""
+Date "07 Jun 2015"
+Rev "1"
 Comp "Henry J Schmale"
 Comment1 ""
 Comment2 ""
