@@ -410,7 +410,6 @@ Wire Wire Line
 	4275 2775 4350 2775
 Wire Wire Line
 	4275 2875 4350 2875
-NoConn ~ 4275 2575
 NoConn ~ 4275 2275
 Wire Wire Line
 	4275 1575 4350 1575
@@ -891,10 +890,8 @@ Text GLabel 4375 1375 2    60   Input ~ 0
 Trig
 Wire Wire Line
 	4275 1375 4375 1375
-Text GLabel 4375 1475 2    60   Input ~ 0
+Text GLabel 4350 2575 2    60   Input ~ 0
 Echo
-Wire Wire Line
-	4275 1475 4375 1475
 Text GLabel 6825 3550 0    60   Input ~ 0
 Trig
 Text GLabel 6825 3650 0    60   Input ~ 0
@@ -903,4 +900,7 @@ Wire Wire Line
 	6825 3650 6925 3650
 Wire Wire Line
 	6925 3550 6825 3550
+Wire Wire Line
+	4350 2575 4275 2575
+NoConn ~ 4275 1475
 $EndSCHEMATC
