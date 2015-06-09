@@ -7,7 +7,6 @@ LMOTOR2	EQU	P3.7		; Makes Left Motor go in reverse
 RMOTOR1	EQU	P1.2
 RMOTOR2	EQU	P1.3		; Makes Right Motor go in reverse
 BLADEON	EQU	P1.4		; If Set the blades are spinning
-TRIGPIN	EQU	P1.0		; Trigger Range Finder
 
 main:	ORG	0000H		; Program Entry Point
 	JMP	setup		; Interupt Overwriting Protection
@@ -50,6 +49,8 @@ LABEL1:	DJNZ	R6, LABEL1
 	RET
 
 ; Returns Distance In Centimeters in R4
+; Requires HC-SR04 ultrasonic module
+; http://www.circuitstoday.com/ultrasonic-range-finder-using-8051
 rngfnd:
 	MOV	TL1, #207D	; Init Val to start counting from
 	MOV	TH1, #207D	; load Reload Value
